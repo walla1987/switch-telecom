@@ -13,7 +13,7 @@ require_once('vendor/autoload.php');
     <h2>Question 2</h2>
     <?php echo findEmail('find@me.com'); ?>
     <h2>Question 3</h2>
-    <p>Please refer to script.sql in Questions/3 folder</p>
+    <p>Please refer to script.sql in database folder</p>
     <p>I changed each tables primary key to an auto incremented value to ensure uniqueness. I have also normalised the database structure by including a polymorphic table. The reason for this is that subjects are shared between teachers and students.</p>
     <p>I have changed headOfGrade column to boolean because its value is only ever true or false. This better suits this column type</p>
     <p>Lastly I adjusted the salary to a decimal as this better suites storing monetary values like someones salary amount. It also now caters for cents.</p>
