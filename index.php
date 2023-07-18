@@ -1,8 +1,6 @@
 <?php
 
-require_once('Questions/2/findemail.php');
-require_once('Questions/4/Widget.php');
-require_once('Questions/4/helpers.php');
+require_once('vendor/autoload.php');
 
 ?>
 
@@ -21,7 +19,7 @@ require_once('Questions/4/helpers.php');
     <p>Lastly I adjusted the salary to a decimal as this better suites storing monetary values like someones salary amount. It also now caters for cents.</p>
     <h2>Question 4</h2>
     <?php
-    $widget = new Widget();
+    $widget = new App\Widget();
     $widget->setPrice(50.00);
 
     //  increase price
@@ -32,7 +30,7 @@ require_once('Questions/4/helpers.php');
 
 
     ?>
-    <script src="Questions/1/script.js"></script>
+    <script src="public/js/script.js"></script>
 </body>
 
 

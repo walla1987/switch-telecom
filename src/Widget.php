@@ -1,6 +1,6 @@
 <?php
 
-require_once('Base.php');
+namespace App;
 
 class Widget extends Base
 {

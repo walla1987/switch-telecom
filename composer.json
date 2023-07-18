@@ -1,0 +1,13 @@
+{
+    "name": "switch/telecom",
+    "type": "project",
+    "description": "Assessment",
+    "autoload": {
+        "psr-4": {
+            "App\\": "src/"
+        },
+        "files": [
+            "src/helper.php"
+        ]
+    }
+}
